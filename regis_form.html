@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Form Validation-jQuery</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src='main.js'></script>
+</head>
+
+
+
+<body>
+<div class="container">
+  <h2>Registration</h2>
+  <form action="" id="regis" method="POST">
+
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Steve">
+
+    <label for="number">Mobile Number</label>
+    <input type="number" name="number" id="number" placeholder="9199876451">
+
+    <label for="age">Age<span>(Age should be above 13)</span></label>
+    <input type="number" name="age" id="age" placeholder="">
+
+    
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Steve@gmail.com">
+
+    <label for="password">Password<span>(minimum of 6 characters reqired. )</span></label>
+    <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+
+    <label for="repassword">Repeat-Password<span>(please confirm the password)</span></label>
+    <input type="password" name="repassword" id="repassword" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+
+
+    
+
+    <button type="submit">Register</button>
+  </form>
+  </div>
+  </body>
+</html>
